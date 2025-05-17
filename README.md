@@ -1,1 +1,2 @@
-# MyJavaJourney
+# My Java Learning Journey
+  If you are here please try "Rock_Paper_Scissor_Game" you would Love it...
