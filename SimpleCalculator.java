@@ -7,10 +7,11 @@ public class SimpleCalculator {
                 return num1+num2;
             
             case "/":
-                if(num2==0)
+                if(num2==0){
                     System.out.println("Not Divisible by Zero");
-               
-                return num1/num2;
+                     return 0;
+                }
+                return (flaot)num1/num2;
            
             case "-":
                 return num1-num2;
@@ -19,10 +20,11 @@ public class SimpleCalculator {
                 return num1*num2;
             
             case "%":
-                 if(num2==0)
+                 if(num2==0){
                     System.out.println("Not Divisible by Zero");
-       
-                 return num1%num2;
+                    return 0;
+                 }
+                 return (flaot)num1%num2;
          
 
             default:
