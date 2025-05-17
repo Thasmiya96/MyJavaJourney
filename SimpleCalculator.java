@@ -11,7 +11,7 @@ public class SimpleCalculator {
                     System.out.println("Not Divisible by Zero");
                      return 0;
                 }
-                return (flaot)num1/num2;
+                return (float)num1/num2;
            
             case "-":
                 return num1-num2;
@@ -24,7 +24,7 @@ public class SimpleCalculator {
                     System.out.println("Not Divisible by Zero");
                     return 0;
                  }
-                 return (flaot)num1%num2;
+                 return (float)num1%num2;
          
 
             default:
